@@ -62,4 +62,5 @@ nav a {
 
 .orange-hero {
   background-image: url(../svg/orange-hero.svg);
+  color: white;
 }
