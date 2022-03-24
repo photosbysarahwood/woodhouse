@@ -8,17 +8,20 @@ video {
 
 h1 {
   font-family: "Josefin Sans";
-  font-size: 1rem;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 h2 {
   font-family: "Josefin Sans";
+  font-size: 5rem;
 }
 
 h3 {
   font-family: "Triong";
   font-style: italic;
   font-weight: 500;
+  font-size: 3rem;
 }
 
 .blue-button {
@@ -62,5 +65,22 @@ nav a {
 
 .orange-hero {
   background-image: url(../svg/orange-hero.svg);
+  background-size: cover;
   color: white;
+  max-width: 50rem;
+  padding: 5rem;
+}
+
+.hero-left {
+  max-width: 50rem;
+}
+
+.hero-left img {
+  object-fit: cover;
+}
+
+.brand-message {
+  display: flex;
+  max-height: 80vh;
+  overflow: hidden;
 }
