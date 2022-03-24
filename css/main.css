@@ -6,9 +6,60 @@ video {
   height: auto;
 }
 
-button {
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: "Josefin Sans";
+}
+
+h3 {
+  font-family: "Triong";
+  font-style: italic;
+  font-weight: 500;
+}
+
+.blue-button {
   background-color: #b0c6b6;
   color: white;
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.3rem 1rem;
   font-family: "Josefin Sans";
+  border: none;
+}
+
+nav {
+  background-color: #fbf7ea;
+  padding: 1rem 5rem 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.nav-pages {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.woodhouse-logo {
+  max-width: 15rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+nav a {
+  font-family: "Josefin Sans";
+  color: #272522;
+  text-decoration: none;
+}
+
+.orange-hero {
+  background-image: url(../svg/orange-hero.svg);
 }
