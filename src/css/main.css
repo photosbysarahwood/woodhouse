@@ -18,10 +18,29 @@ h2 {
 }
 
 h3 {
-  font-family: "Triong";
+  font-family: "Trirong";
   font-style: italic;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-family: "Trirong";
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+
+h5 {
+  font-family: "Josefin Sans";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Oxygen";
+  line-height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .blue-button {
@@ -30,6 +49,15 @@ h3 {
   padding: 0.5rem 1rem 0.3rem 1rem;
   font-family: "Josefin Sans";
   border: none;
+}
+
+.green-button {
+  background-color: #534e2c;
+  color: white;
+  padding: 0.5rem 1rem 0.3rem 1rem;
+  font-family: "Josefin Sans";
+  border: none;
+  max-height: 3rem;
 }
 
 nav {
@@ -83,4 +111,79 @@ nav a {
   display: flex;
   max-height: 80vh;
   overflow: hidden;
+  object-fit: cover;
+}
+
+.hi-there {
+  background-color: white;
+  max-height: 70vh;
+}
+
+.about-card {
+  background-color: #fbf7ea;
+  margin: 6rem 17rem 6rem 17rem;
+  padding: 5rem;
+  color: #272522;
+  display: flex;
+  gap: 5rem;
+  max-height: 35rem;
+}
+
+.about-card img {
+  max-width: 20rem;
+  object-fit: cover;
+}
+
+.services {
+  background-color: #b0c6b6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+  max-height: 30rem;
+}
+
+.services-buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 30rem;
+  align-items: center;
+}
+
+.services-buttons img {
+  max-width: 15rem;
+  align-self: center;
+}
+
+.services-buttons button {
+  min-width: 10rem;
+}
+
+.recent-projects {
+  color: #272522;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+.project-cards article {
+  background-color: #fbf7ea;
+  padding: 3rem;
+}
+
+.category {
+  font-family: "Trirong";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
 }
