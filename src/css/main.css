@@ -43,6 +43,14 @@ p {
   font-weight: 300;
 }
 
+.blue-button-nav {
+  background-color: #b0c6b6;
+  color: white;
+  padding: 0.5rem 1rem 0.3rem 1rem;
+  font-family: "Josefin Sans";
+  border: none;
+}
+
 .blue-button {
   background-color: #b0c6b6;
   color: white;
@@ -185,9 +193,8 @@ nav a {
   margin-top: 3rem;
 }
 
-.project-cards article {
-  background-color: #fbf7ea;
-  padding: 3rem;
+.project-cards p {
+  margin-top: 0rem;
 }
 
 .category {
@@ -284,4 +291,36 @@ nav a {
 
 .review-card img {
   max-width: 10rem;
+}
+
+.instagram {
+  background-color: #fbf7ea;
+  padding: 3rem 7rem 3rem 7rem;
+}
+
+.instagram-cta {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.instagram-cta p {
+  font-family: "Trirong";
+  font-style: italic;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.instagram-container {
+  display: grid;
+  object-fit: cover;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.instagram-container img {
+  aspect-ratio: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
