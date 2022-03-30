@@ -316,6 +316,7 @@ nav a {
   object-fit: cover;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .instagram-container img {
@@ -323,4 +324,53 @@ nav a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+footer {
+  background-color: #b26e3e;
+  padding: 3rem 5rem 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 30rem;
+}
+
+footer a,
+h4 {
+  font-family: "Josefin Sans";
+  color: white;
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+.footer-pages {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.footer-logo {
+  max-width: 15rem;
+}
+
+.footer-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  text-align: right;
+  max-width: 15rem;
+}
+
+.footer-cta h4 {
+  font-size: 1.5rem;
+}
+
+.footer-cta img {
+  max-width: 2rem;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+  margin-top: 1rem;
 }
