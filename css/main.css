@@ -146,6 +146,10 @@ nav a {
   max-height: 35rem;
 }
 
+.about-card h4 {
+  color: #272522;
+}
+
 .about-card img {
   max-width: 20rem;
   object-fit: cover;
@@ -334,8 +338,7 @@ footer {
   gap: 30rem;
 }
 
-footer a,
-h4 {
+footer a {
   font-family: "Josefin Sans";
   color: white;
   text-decoration: none;
@@ -374,3 +377,8 @@ h4 {
   gap: 1rem;
   margin-top: 1rem;
 }
+
+/* position: absolute;
+  inset: 0;
+  margin: auto;
+/*
