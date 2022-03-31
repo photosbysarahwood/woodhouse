@@ -34,6 +34,7 @@ h5 {
   font-family: "Josefin Sans";
   font-weight: 500;
   font-size: 1.5rem;
+  margin: 1rem 0rem 0rem 0rem;
 }
 
 h6 {
@@ -43,6 +44,7 @@ h6 {
   font-weight: 500;
   margin-top: 1rem;
 }
+
 p {
   font-family: "Oxygen";
   line-height: 2.5rem;
@@ -155,6 +157,10 @@ nav a {
   font-family: "Josefin Sans";
   color: #272522;
   text-decoration: none;
+}
+
+.social-icon:hover {
+  opacity: 70%;
 }
 
 .orange-hero {
@@ -562,4 +568,49 @@ footer a {
 
 .service-animation h5 {
   font-size: 2rem;
+}
+
+.work-recent-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0rem 3rem 0rem;
+  line-height: 5rem;
+}
+
+.category-title {
+  border-left: 0.1rem solid #272522;
+  padding: 0rem 1rem 0rem 1rem;
+  font-family: "Trirong";
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #272522;
+  text-decoration: none;
+}
+
+#no-border {
+  border: none;
+}
+
+.category-title:hover {
+  text-decoration: underline;
+}
+
+.work-project-cards {
+  margin: 0rem 20rem 3rem 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  row-gap: 2rem;
+}
+
+.inquire {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.thumbnail:hover {
+  opacity: 70%;
 }
