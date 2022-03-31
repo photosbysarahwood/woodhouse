@@ -634,3 +634,55 @@ footer a:hover {
 .thumbnail:hover {
   opacity: 70%;
 }
+
+/* Doula Design Project Page */
+
+.doula-design-hero {
+  background-image: url(../img/julia-hero.png);
+  background-size: cover;
+  height: 70vh;
+  background-position-y: 25%;
+  padding: 10rem 0rem 0rem 5rem;
+  line-height: 4rem;
+}
+
+.doula-design-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.doula-design-description a {
+  color: #272522;
+  text-decoration: none;
+}
+
+.doula-design-description a:hover {
+  opacity: 70%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  row-gap: 2rem;
+  padding: 0rem 20rem 0rem 20rem;
+}
+
+.gallery-grid img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+.previous-next {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 20rem 5rem 20rem;
+}
