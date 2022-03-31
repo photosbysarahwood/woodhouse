@@ -147,6 +147,10 @@ nav {
   max-width: 15rem;
 }
 
+.woodhouse-logo:hover {
+  opacity: 70%;
+}
+
 .cta {
   display: flex;
   flex-direction: row;
@@ -157,6 +161,10 @@ nav a {
   font-family: "Josefin Sans";
   color: #272522;
   text-decoration: none;
+}
+
+nav a:hover {
+  opacity: 70%;
 }
 
 .social-icon:hover {
@@ -396,6 +404,10 @@ footer a {
   line-height: 3rem;
 }
 
+footer a:hover {
+  opacity: 70%;
+}
+
 .footer-pages {
   display: flex;
   flex-direction: column;
@@ -404,6 +416,10 @@ footer a {
 
 .footer-logo {
   max-width: 15rem;
+}
+
+.footer-logo:hover {
+  opacity: 70%;
 }
 
 .footer-cta {
@@ -421,6 +437,10 @@ footer a {
 
 .footer-cta img {
   max-width: 2rem;
+}
+
+.footer-cta img:hover {
+  opacity: 70%;
 }
 
 .footer-social {
