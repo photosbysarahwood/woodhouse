@@ -329,9 +329,10 @@ nav a:hover {
 
 .review-carousel {
   display: grid;
-  margin: 0rem 10rem 5rem 10rem;
+  margin: 2rem 10rem 5rem 10rem;
   grid-template-columns: 1fr 4fr 1fr;
-  gap: 2rem;
+  column-gap: 1rem;
+  align-items: center;
 }
 
 .scroll {
@@ -339,11 +340,16 @@ nav a:hover {
   align-self: center;
 }
 
+.scroll:hover {
+  opacity: 70%;
+  max-height: 6rem;
+}
+
 .review-card {
   background-color: #fbf7ea;
   display: flex;
   align-items: center;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
   min-width: 50rem;
   gap: 3rem;
 }
