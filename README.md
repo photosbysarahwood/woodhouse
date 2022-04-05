@@ -123,9 +123,8 @@ My continued goals for this project include:
 
 ## Acknowledgments
 
-Don Wood, for encouragement and inspiration from the very, very beginning.
-Andrew Sipes, for his time, mentorship, and wizard abilities.
-Zack Turner, for his patience, hyperfocus, friendship, and eagerness to help.
-Atlantis Warren, for her collaboration, commiseration, and sense of humor.
-Davis Library, for Code HQ.
+- Don Wood, for encouragement and inspiration from the very, very beginning.
+- Andrew Sipes, for his time, mentorship, and wizard abilities.
+- Zack Turner, for his patience, hyperfocus, friendship, and eagerness to help.
+- Atlantis Warren, for her collaboration, commiseration, and sense of humor.
 
