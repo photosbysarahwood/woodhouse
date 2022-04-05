@@ -191,6 +191,10 @@ nav a:hover {
   object-fit: cover;
 }
 
+.hero-right img {
+  width: 60rem;
+}
+
 .brand-message {
   display: flex;
   max-height: 80vh;
@@ -257,6 +261,11 @@ nav a:hover {
   justify-content: space-between;
   gap: 5rem;
   margin-top: 3rem;
+}
+
+.project-cards img {
+  width: 20rem;
+  height: 20rem;
 }
 
 .project-cards p {
