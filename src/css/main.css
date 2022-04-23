@@ -711,3 +711,12 @@ footer a:hover {
   justify-content: space-between;
   padding: 0rem 20rem 5rem 20rem;
 }
+
+Mobile @media (max-width: 47.9375em) {
+}
+
+Desktop @media (min-width: 48em) {
+  .nav-pages {
+    display: flex;
+  }
+}
